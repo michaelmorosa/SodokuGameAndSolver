@@ -15,7 +15,7 @@ def board_setup():
 
 
 def print_board1(board1):
-    print("         Sudoku Game        ")
+    print("         SUDOKU GAME        ")
     print("    0 1 2   3 4 5   6 7 8  ")
     print("  -------------------------")
     k = 0
@@ -82,7 +82,7 @@ def make_move(a, board1):
 
 
 def print_board(board):
-    print("         SODOKU          ")
+    print("         SUDOKU          ")
     print("-------------------------")
     for i in board:
         z = 0
@@ -177,7 +177,7 @@ def lose(board):
 
 
 def main():
-    print("       The Game of Sudoku")
+    print("       THE GAME OF SUDOKU")
     print("You lose if you get 5 moves wrong")
     wrong = []
     move_list = []
